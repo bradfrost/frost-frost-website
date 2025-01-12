@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&family=Oi&display=swap');
 
 * {
     box-sizing: border-box;
@@ -14,9 +14,11 @@
     --color-blue-dark: #006699;
 
     /* Typography */
-    --font-family-body: sans-serif;
+    --font-family-body: "Lexend Exa", serif;
     --font-family-title: "Oi", serif;
     --font-weight-title: 400;
+
+    --font-size-body: 2rem;
 
     /* Layout */
     --l-max-width: 50rem;
@@ -26,6 +28,7 @@ body {
     background: var(--color-orange);
     color: var(--color-cream);
     font-family: var(--font-family-body);
+    font-size: var(--font-size-body);
     margin: 0;
     padding: 3rem 0 0;
 }
@@ -44,6 +47,10 @@ img {
     margin: 1rem 0 0;
     text-align: center;
     text-transform: lowercase;
+}
+
+.bio {
+    text-align: center;
 }
 
 .l-container {
