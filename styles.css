@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-orange: #b26b25;
+}
+
+body {
+    background: var(--color-orange);
+}
