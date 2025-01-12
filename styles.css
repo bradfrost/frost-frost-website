@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -10,10 +12,41 @@
     --color-brown: #110000;
     --color-blue-light: #66ccff;
     --color-blue-dark: #006699;
+
+    /* Typography */
+    --font-family-body: sans-serif;
+    --font-family-title: "Oi", serif;
+    --font-weight-title: 400;
+
+    /* Layout */
+    --l-max-width: 50rem;
 }
 
 body {
-    background: var(--color-cream);
-    color: var(--color-brown);
-    font-family: sans-serif;
+    background: var(--color-orange);
+    color: var(--color-cream);
+    font-family: var(--font-family-body);
+    margin: 0;
+    padding: 3rem 0 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.logo {
+    font-family: var(--font-family-title);
+    font-size: 20vw;
+    font-weight: var(--font-weight-title);
+    line-height: 0.85;
+    margin: 1rem 0 0;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.l-container {
+    max-width: var(--l-max-width);
+    margin: 0 auto;
 }
