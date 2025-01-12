@@ -3,9 +3,17 @@
 }
 
 :root {
+    /* Design tokens */
     --color-orange: #b26b25;
+    --color-cream: #f6f5de;
+    --color-cream-dark: #efeed4;
+    --color-brown: #110000;
+    --color-blue-light: #66ccff;
+    --color-blue-dark: #006699;
 }
 
 body {
-    background: var(--color-orange);
+    background: var(--color-cream);
+    color: var(--color-brown);
+    font-family: sans-serif;
 }
