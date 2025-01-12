@@ -11,7 +11,7 @@
     --color-cream-dark: #efeed4;
     --color-brown: #110000;
     --color-blue-light: #66ccff;
-    --color-blue-dark: #006699;
+    --color-blue-dark: #0d004c;
 
     /* Typography */
     --font-family-body: "Lexend Exa", serif;
@@ -19,6 +19,10 @@
     --font-weight-title: 400;
 
     --font-size-body: 2rem;
+
+    /* Box Shadow */
+    --box-shadow: 0 20px 0 -5px var(--color-blue-dark), 0 40px 0 -10px #66ccff,
+    0 60px 0 -16px #dedcb9;
 
     /* Layout */
     --l-max-width: 50rem;
@@ -47,10 +51,18 @@ img {
     margin: 1rem 0 0;
     text-align: center;
     text-transform: lowercase;
+    text-shadow: 0 2vw 0 var(--color-blue-dark);
 }
 
 .bio {
     text-align: center;
+}
+
+.album-art {
+    display: block;
+    border: 10px solid var(--color-brown);
+    box-shadow: var(--box-shadow);
+    margin-bottom: 12rem;
 }
 
 .l-container {
