@@ -61,7 +61,6 @@ img {
 .album-art {
     display: block;
     border: 10px solid var(--color-brown);
-    box-shadow: var(--box-shadow);
     margin-bottom: 12rem;
 }
 
@@ -71,7 +70,7 @@ img {
 }
 
 .button {
-    display: inline-block;
+    display: block;
     background: var(--color-blue-dark);
     color: var(--color-cream);
     padding: 2vw 4vw;
@@ -81,5 +80,6 @@ img {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-title);
     line-height: 1;
-    font-size: 4vw;
+    font-size: clamp(2rem, 4vw, 4rem);
+    text-align: center;
 }
